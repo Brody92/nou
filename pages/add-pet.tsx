@@ -1,5 +1,9 @@
 import { useState } from "react";
 import { db, auth } from "../src/lib/firebase";
+<<<<<<< HEAD
+=======
+
+>>>>>>> a64290de0f349d4e4a9eb5fe931e535222f704ff
 import { collection, addDoc } from "firebase/firestore";
 import { useRouter } from "next/router";
 
