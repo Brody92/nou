@@ -9,7 +9,7 @@ import { doc, getDoc, collection, addDoc, getDocs } from "firebase/firestore";
 import { ref, uploadBytes, getDownloadURL } from "firebase/storage";
 import jsPDF from "jspdf";
 import autoTable from "jspdf-autotable";
-import QRCode from "qrcode.react";
+import QRCode from "react-qr-code";
 
 // ... restul codului este deja cunoscut din canvas
 
