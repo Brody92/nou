@@ -4,7 +4,7 @@
 
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
-import { db, auth, storage } from "../src/lib/firebase";
+import { db, auth, storage } from "../../src/lib/firebase";
 import { doc, getDoc, collection, addDoc, getDocs } from "firebase/firestore";
 import { ref, uploadBytes, getDownloadURL } from "firebase/storage";
 import jsPDF from "jspdf";
